@@ -15,17 +15,17 @@ function App() {
                 <div className="col-6">
                   <button
                     type="button"
-                    class="btn btn-outline-primary my-2 w-100"
+                    class="btn btn-outline-primary my-2 w-100 fs-5"
                   >
-                    Primary
+                    Brightness
                   </button>
                 </div>
                 <div className="col-6">
                   <button
                     type="button"
-                    class="btn btn-outline-primary my-2 w-100"
+                    class="btn btn-outline-primary my-2 w-100 fs-5"
                   >
-                    Primary
+                    Saturation
                   </button>
                 </div>
               </div>
@@ -33,22 +33,34 @@ function App() {
                 <div className="col-6">
                   <button
                     type="button"
-                    class="btn btn-outline-primary my-2 w-100"
+                    class="btn btn-outline-primary my-2 w-100 fs-5"
                   >
-                    Primary
+                    Inversion
                   </button>
                 </div>
                 <div className="col-6">
                   <button
                     type="button"
-                    class="btn btn-outline-primary my-2 w-100"
+                    class="btn btn-outline-primary my-2 w-100 fs-5"
                   >
-                    Primary
+                    Grayscale
                   </button>
                 </div>
               </div>
             </div>
             {/* coller Filters end */}
+
+            {/* Brightness start */}
+            <div className="mt-2">
+              <div className="d-flex justify-content-between">
+                <h2 className="text-primary fs-5">Brightness:</h2>
+                <h2 className="text-primary fs-5">100%</h2>
+              </div>
+              <div className="mt-3 d-flex justify-content-center">
+                <input type="range" className="w-75 " min="0" max="200" />
+              </div>
+            </div>
+            {/* Brightness end */}
           </div>
           <div className="col-6">
             <h2>This is image section</h2>
